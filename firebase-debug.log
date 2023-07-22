@@ -1,0 +1,19 @@
+[debug] [2023-07-22T13:47:30.765Z] ----------------------------------------------------------------------
+[debug] [2023-07-22T13:47:30.767Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2023-07-22T13:47:30.768Z] CLI Version:   12.4.5
+[debug] [2023-07-22T13:47:30.768Z] Platform:      win32
+[debug] [2023-07-22T13:47:30.768Z] Node Version:  v17.9.1
+[debug] [2023-07-22T13:47:30.769Z] Time:          Sat Jul 22 2023 16:47:30 GMT+0300 (Eastern European Summer Time)
+[debug] [2023-07-22T13:47:30.769Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-22T13:47:30.852Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-22T13:47:30.852Z] > authorizing via signed-in user (ueukfrrfeynvjq@gmail.com)
+[debug] [2023-07-22T13:47:30.852Z] [iam] checking project ebook-front for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-07-22T13:47:30.855Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/ebook-front:testIamPermissions [none]
+[debug] [2023-07-22T13:47:30.855Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/ebook-front:testIamPermissions x-goog-quota-user=projects/ebook-front
+[debug] [2023-07-22T13:47:30.856Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ebook-front:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-22T13:47:31.928Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/ebook-front:testIamPermissions 200
+[debug] [2023-07-22T13:47:31.928Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/ebook-front:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-07-22T13:47:31.929Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/ebook-front [none]
+[debug] [2023-07-22T13:47:32.338Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/ebook-front 200
+[debug] [2023-07-22T13:47:32.338Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/ebook-front {"projectId":"ebook-front","projectNumber":"879096118374","displayName":"eBook-front","name":"projects/ebook-front","resources":{"hostingSite":"ebook-front"},"state":"ACTIVE","etag":"1_91042f48-a11b-4304-ade1-18cc6ee93652"}
